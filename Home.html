@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Predict Churn</title>
+    </head>
+    <body>
+
+
+        <form action="predicao" method="POST" >
+          
+              <p>Por favor escolha seu genero:</p>
+                <input type="radio" name="genero" value=0>
+                <label for="Masculino">Masculino</label><br>
+                <input type="radio"  name="genero" value=1>
+                <label for="Feminino">Feminino</label><br>
+
+              <br>
+     
+
+        <p>Idade Superior a 35 anos:</p>
+       <input type="radio" name="idade" value=1>
+          <label for="idade">Sim</label><br>
+        <input type="radio" name="idade" value=0>
+          <label for="idade">Não</label><br>
+
+
+        <br>
+        
+        <p>Informe os serviços:</p>
+        <input type="checkbox"  name="telefone" value="1">
+        <label for="telefone">Telefone</label>
+
+        <input type="checkbox" name="suporte" value="1">
+        <label for="suporte">Suporte</label>
+
+        <input type="checkbox"  name="streaming" value="1">
+        <label for="streaming">Streaming de Filmes</label>
+
+
+        <p>Forma de pagamento</p>
+        <input type="radio"  name="chequee" value="1">
+        <label for="chequee">Cheque eletrônico</label>
+        <input type="radio"  name="chequef" value="1">
+        <label for="chequef">Cheque Físico</label>
+        <input type="radio"  name="transferecia" value="1">
+        <label for="transferecia">Transferência Bancária</label>
+        <input type="radio"  name="cartaoc" value="1">
+        <label for="cartaoc">Cartão de Crédito</label>
+
+
+        <p>Contrato</p>
+        <input type="radio"  name="mensal" value="1">
+        <label for="mensal">Mês a mês</label>
+        <input type="radio"  name="anual" value="1">
+        <label for="anual">Um ano</label>
+        <input type="radio"  name="bianual" value="1">
+        <label for="bianual">Dois anos</label>
+
+<p>
+        <button type="submit">Previsão de Churn</button>
+        </form>     
+
+    </body>
+</html>
