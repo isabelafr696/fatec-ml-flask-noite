@@ -1,5 +1,7 @@
 import cloudpickle
+import numpy as np
 from flask import Flask, render_template, request
+
 
 with open('model.pkl', 'rb') as file_in:
   model = cloudpickle.load(file_in)
